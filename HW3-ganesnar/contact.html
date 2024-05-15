@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Rithika Ganesna</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head> 
+<body>
+    <header> 
+        <h1>Rithika Ganesna</h1>
+        <nav>
+            <ul>
+                <li><a href='index.html' target='_blank'>Home</a></li>
+                <li><a href='interests.html' target='_blank'>Interest</a></li>
+                <li><a href='contact.html' target='_blank'>Contact</a></li>
+                <li><a href='style.html' target='_blank'>Styles</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <section>
+        <h2> Contact </h2>
+        <article>
+            <h3>Purpose of this Form: </h3>
+            <p> This purpose of this form is to collect your contact information regarding your name and email. You 
+                can also send a message with your submission. </p>
+        </article>
+        <form method="get" action="">
+            <fieldset>
+                <legend id = "contactinfo">User Contact Information</legend>
+                <label>Name</label>
+                <input type="text" name="customerName" size="30"  required placeholder="John Doe"> 
+                <br><br>
+                <label>Email</label>
+                <input type="email" name="customerEmail" size="30" required placeholder="johndoe@gmail.com"> 
+                <br>
+                <label>Message</label>
+                <textarea required> </textarea> 
+                <br>
+                <label> Favorite Ice Cream</label>
+                <br>
+                <label>Strawberry</label><input class= "radios" type="radio" name="treat" value="Strawberry">
+                <label>Vanilla</label><input class= "radios"  type="radio" name="treat" value="Vanilla">
+                <label>Chocolate</label><input class= "radios" type="radio" name="treat" value="Chocolate">
+            </fieldset>   
+            <p>Type of Message</p>
+            <select name="type of message">
+                <option value="100">positive feedback</option>
+                <option value="101">negative feedback</option>
+                <option value="102">song reccomendations</option>
+                <option value="103">movie reccomendations</option>
+            </select>
+        </form>
+        <br>
+        <button> submit </button>
+    </section>
+    <footer> 
+        <p> &copy; April 15, 2024. Rithika Ganesna. CS290 section 001. Oregon State University.  </p> 
+    </footer>
+</body>
+</html>
